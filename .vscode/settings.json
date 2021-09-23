@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    ".gitpod.yml": true,
+    ".vscode": true
+  },
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
