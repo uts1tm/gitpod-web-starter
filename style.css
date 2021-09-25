@@ -1,0 +1,17 @@
+#hello1{
+  text-decoration: underline;
+}
+
+.greeting {
+  color:blue;
+}
+
+div.foo {
+  border: solid 1px gray;
+  border-radius: 1em;
+  padding: 1em;
+  padding-left: 1.5em;
+  margin: 1em;
+  box-shadow: 0 0 2px gray;
+
+}
