@@ -1,3 +1,15 @@
+let element = document.getElementById("greeting")
+element.textContent = "Hello DOM";
+element.style.backgroundColor = "yellow";
+element.style.color = "red";
+
+function clicked() {
+  alert("Hello World");
+}
+
+let greetButton = document.getElementById("greet-button");
+greetButton.onclick = clicked;
+/*
 let age = 20;
 
 if(age < 18){
@@ -9,3 +21,4 @@ else if(age < 25){
 else{
   document.write("衆議院議員に立候補できます");
 }
+*/
