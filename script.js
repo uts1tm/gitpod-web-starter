@@ -10,7 +10,9 @@ function clicked() {
 }
 */
 
-let timer = document.getElementById("timer-div")
+let timer = document.getElementById("timer-div");
+let time = 0;
+
 function omikuji() {
   let outcome = document.getElementById("outcome");
   let number = Math.random();
@@ -27,16 +29,16 @@ function omikuji() {
     outcome.style.color = "blue";
   }
 }
-/*
+
 function timerfunc(){
   setInterval(timerCount, 1000);
 }
 
 function timerCount() {
   time = time + 1;
-  timer.textContent
+  timer.textContent = time;
 }
-*/
+
 /*
 let greetButton = document.getElementById("greet-button");
 greetButton.onclick = clicked;
@@ -44,10 +46,9 @@ greetButton.onclick = clicked;
 
 let omikujiButton = document.getElementById("omikuji-button");
 omikujiButton.onclick = omikuji;
-/*
+
 let timerButton = document.getElementById("timer-button");
-omikujiButton.onclick = timerfunc;
-*/
+timerButton.onclick = timerfunc;
 /*
 let age = 20;
 
